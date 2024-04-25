@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech World</title>
+    <style>
+        body{
+            background-image: url('background image.png');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .navbar{
+            background-color: white;
+            border-radius: 50px;
+            height: 60px;
+            width: 800px;
+            margin-left: 275px;
+            margin-top: 40px;
+        }
+        .navbar ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .navbar ul li{
+            margin-right: 86px;
+            margin-left: 55px;
+            margin-top: 17px;
+            font-weight: bolder;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .navbar ul li a{
+            text-decoration: none;
+            color: black;
+        }
+        .title{
+            background-color: grey;
+            height: 100px;
+            width: 500px;
+            margin-left: 425px;
+            border-radius: 30px;
+        }
+        .title ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .title ul li{
+            margin-right: 30px;
+            margin-top: 30px;
+            font-weight: bolder;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .name{
+            height: 50px;
+            width: 250px;
+            margin-left: 550px;
+        }
+        .name ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .name ul li{
+            margin-right: 50px;
+            height: 50px;
+            width: 250px;
+            font-weight: bolder;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .name ul li input{
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            border: 5px;
+        }
+        .mobile{
+            height: 50px;
+            width: 250px;
+            margin-left: 530px;
+        }
+        .mobile ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .mobile ul li{
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            border: 5px;
+        }
+        .mobile ul li input{
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            border: 5px;
+        }
+        .mail{
+            height: 50px;
+            width: 250px;
+            margin-left: 530px;
+        }
+        .mail ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .mail ul li{
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            border: 5px;
+        }
+        .mail ul li input{
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            border: 5px;
+        }
+        .problem{
+            height: 50px;
+            width: 250px;
+            margin-left: 530px;
+        }
+        .problem ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .problem ul li{
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            border: 5px;
+        }
+        .problem ul li input{
+            height: 50px;
+            width: 250px;
+            background-color: white;
+            border-radius: 20px;
+            border: 5px;
+        }
+        .send{
+            height: 50px;
+            width: 250px;
+            margin-left: 580px;
+        }
+        .send ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .send ul li{
+            height: 50px;
+            width: 250px;
+        }
+        .send button{
+            height: 30px;
+            width: 100px;
+            border-radius: 25px;
+            border: 5px;
+        }
+        .contect{
+            display: flex;
+        }
+        .e-mail{
+            background-color: gray;
+            border-radius: 50px;
+            height: 95px;
+            width: 670px;
+            margin-top: 10px;
+        }
+        .e-mail ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .e-mail ul li{
+            margin-right: 45px;
+            font-weight: lighter;
+        }
+        .number{
+            background-color: gray;
+            border-radius: 50px;
+            height: 95px;
+            width: 670px;
+            margin-left: 110px;
+            margin-top: 10px;
+        }
+        .number ul{
+            display: flex;
+            text-decoration: none;
+            list-style: none;
+            justify-content: center;
+        }
+        .number ul li{
+            margin-right: 45px;
+            font-weight: lighter;
+        }
+        .box{
+            height: 300px;
+            margin-top: 50px;
+            margin-left: 530px;
+        }
+        .kk{
+            height: 80px;
+        }
+        button{
+            height: 50px;
+            width: 200px;
+            margin-top: 40px;
+            margin-left: 580px;
+            font-size: 25px;
+            border: 5px;
+            border-color: white;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h2>
+                <ul>
+                   <li> <a href="index.html" target="_blank"> Home </a> </li>
+                   <li> <a href="products.html" target="_blank"> Products </a> </li>
+                   <li> <a href="contact us.html"> Contact Us </a> </li>
+                </ul>
+            </h2>
+        </div>
+    </header>
+    <div class="title">
+        <h1>
+            <ul>
+                <li> Contact Us / Help Center </li>
+            </ul>
+        </h1>
+    </div>
+    <form action="">
+        <div class="box">
+            <div class="kk"><input type="name" style="height: 40px;width: 300px;" placeholder="Enter Your Full Name" required><br></div>
+            <div class="kk"><input type="number" style="height: 40px;width: 300px;" placeholder="Enter Your Mobile No." required><br></div>
+            <div class="kk"><input type="email" style="height: 40px;width: 300px;" placeholder="Enter Your E-mail ID" required><br></div>
+            <div class="kkk"><input type="text" style="height: 40px;width: 300px;" placeholder="Write About Your Problem" required><br></div>
+        </div>
+        <button type="Send"> Send </button>
+    </form>
+    <br>
+    <div class="contect">
+        <div class="e-mail">
+            <h1>
+                <ul>
+                    <li> Our E-mail :- techworld123@gmail.com </li>
+                </ul>
+            </h1>
+        </div>
+        <div class="number">
+            <h1>
+                <ul>
+                    <li> Our Mobile No. :- +91 9909012371 </li>
+                </ul>
+            </h1>
+        </div>
+    </div>
+    <br>
+</body>
+</html>
